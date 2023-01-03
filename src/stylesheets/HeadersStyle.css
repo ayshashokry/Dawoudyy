@@ -1,0 +1,199 @@
+.otherHeaders {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+@media (max-width: 400px) {
+  .otherHeaders {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+}
+
+.otherHeaders h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 100%;
+
+  /* identical to box height, or 152px */
+
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-indent: 3px;
+
+  color: #fffefe;
+}
+
+.p4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 141.04%;
+  /* or 45px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #fffefe;
+}
+/*************************************************************************************/
+
+.myheader2 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+/******section el mlwn fl header**/
+.myheader3 {
+  position: absolute;
+  left: -21px;
+  top: 52%;
+  transform: translate(0%, -50%);
+  animation: opc 2s ease-out;
+  padding: 20px;
+}
+
+
+
+.myheaderr {
+  position: absolute;
+  left:-220px;
+  top: 70%;
+  transform: translate(0%, -50%);
+  animation: myopc 2s ease-out;
+  padding: 20px;
+}
+
+
+@keyframes myopc {
+  from {
+    left: -100%;
+  }
+  to {
+    left:-220px;
+  }}
+
+
+@keyframes opc {
+  from {
+    left: -100%;
+  }
+  to {
+    left: -21px;
+  }
+}
+.myheader4 {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+.headerRow {
+  /* padding: 0px 0px 0px 8px;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #ffffff; */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  /* font-size: 24px; */
+  font-size: 30px;
+
+  line-height: 141.04%;
+  /* or 48px */
+padding:10px;
+margin-bottom: 0;
+
+  color: #ffffff;
+}
+
+.headerRowwithletterspace {
+  letter-spacing: 0.1em !important;
+  margin-bottom: 0;
+}
+.headerRowwithoutletterspace {
+  letter-spacing: 0 !important;
+  word-spacing: 0.3em;
+}
+
+.since {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 100%;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media (max-width: 800px) and (min-width: 401px) {
+  .myheader2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .headerRow {
+    /* background-color: #223362; */
+    padding: 0px;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    /* line-height: 10%; */
+    letter-spacing: 0.32em;
+
+    color: #ffffff;
+  }
+
+
+  .otherHeaders h2 {
+    
+    font-size: 50px;
+  
+  }
+
+}
+
+@media (max-width: 400px) {
+  .myheader2 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .headerRow {
+    /* background-color: #223362; */
+    display: none;
+  }
+  .otherHeaders h2 {
+    
+    font-size: 40px;
+  
+  }
+  .p4{font-size: 20px;}
+
+}

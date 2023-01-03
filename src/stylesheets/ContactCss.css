@@ -1,0 +1,205 @@
+.contactus .myheader2 {
+  background-image: url('../images/contactHeader.png');
+}
+
+@media (max-width: 800px) and (min-width: 401px) {
+  .contactus .myheader2 {
+    background-image: url('../images/contactTablet.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+@media (max-width: 400px) {
+  .contactus .myheader2 {
+    background-image: url('../images/contactMobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+.contactheader h6 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #243462;
+}
+
+.contactheader p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #243462;
+}
+.contacticon img {
+  text-align: center;
+  width: 55px;
+  height: 55px;
+}
+.contacticon p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 0.21em;
+  color: #243462;
+  padding-top: 15px;
+}
+
+.contacth6 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  color: #243462;
+}
+
+.contacticonsrow {
+  margin: 80px 0 80px 160px;
+}
+
+@media (max-width: 500px) {
+  .contacticonsrow {
+    text-align: center;
+  }
+}
+
+.contacticonsrow p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #526088;
+}
+
+.contacticonsrow h6 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  letter-spacing: 0.19em;
+  color: #243462;
+}
+
+.reachform h5 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #243462;
+}
+.reachus-paragraph {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: #243462;
+}
+.reachform button {
+  background-color: #ffb56c;
+  border-radius: 50px;
+  padding-right: 90px;
+  padding-left: 90px;
+  text-align: center !important;
+  margin: 25px 0;
+  color: #243462;
+  border: none;
+}
+.reachform button:hover {
+  background-color: #ffb56c !important;
+  color: #243462;
+}
+.reachform {
+  padding-left: -20px;
+}
+
+.reachform input {
+  width: 90%;
+  border-radius: 0;
+  height: 50px;
+}
+.reachform textarea {
+  width: 90%;
+  border-radius: 0;
+}
+.map-div {
+  /* background-image: url('https://dawoudy.s3.eu-central-1.amazonaws.com/mapbackground.png'); */
+  background-position: center;
+  width: 100%;
+  position: relative;
+  height: 480px !important;
+  background-color: rgba(36,56,98,88%);
+  
+}
+
+
+
+.mymap {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.mymap iframe {
+  height: 430px !important;
+  width: 500px;
+}
+
+@media (max-width: 991px) {
+  .mymap iframe {
+    height: 300px !important;
+    width: 100%;
+  }
+  .mymap {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 20%;
+  }
+  .map-div {
+    background-image: none;
+    width: 100%;
+    padding-bottom: 180px;
+    height: 300px !important;
+
+  }
+ 
+}
+.formamp {
+  padding-bottom: 100px;
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .icondivcontacthome {
+    padding-bottom: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .iconinfo {
+    padding-left: 35px !important;
+  }
+}
+
+.contacticonsection {
+  padding-top: 30px;
+}
+
+@media (max-width: 500px) {
+  .contacticonsrow {
+    margin: 80px 0 80px 20px !important;
+  }
+}

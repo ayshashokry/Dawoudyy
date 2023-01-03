@@ -1,0 +1,170 @@
+.aboutus .myheader2 {
+  background-image: url('../images/aboutHeader.png');
+}
+
+@media (max-width: 800px) and (min-width: 401px) {
+  .aboutus .myheader2 {
+    background-image: url('../images/aboutTablet.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+@media (max-width: 400px) {
+  .services .myheader2 {
+    background-image: url('../images/aboutMobile.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+.about-section h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 137%;
+  /* or 55px */
+
+  text-align: center;
+
+  color: #243462;
+}
+.about-section p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 166%;
+  /* or 41px */
+  margin-top: 40px;
+  /* text-align: left !important; */
+  color: #243462;
+}
+
+.mission-section h6 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 125.04%;
+  /* or 50px */
+
+  text-align: center;
+  letter-spacing: 0.37em;
+  text-indent: 5px;
+
+  color: #243462;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+.mission-section p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  /* or 32px */
+  color: #243462;
+}
+.mission-section img {
+  width: 80px;
+  height: 70px;
+}
+.aboutlogo img {
+  width: 300px;
+  height: 300px;
+}
+
+.mission-section h5 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 125.04%;
+  /* or 50px */
+
+  text-align: center;
+  letter-spacing: 0.37em;
+  text-indent: 5px;
+
+  color: #243462;
+}
+
+.ethics-section {
+  background-image: linear-gradient(
+      rgba(34, 48, 98, 0.56),
+      rgba(34, 48, 98, 0.56)
+    ),
+    url('../images/man.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 60vh; */
+  position: relative;
+  color: white;
+}
+
+.ethics-section p {
+  color: white;
+  /* text-align: initial !important; */
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 140%;
+  /* or 28px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.numbersSection {
+  padding-top: 100px !important;
+  padding-bottom: 180px !important;
+}
+
+@media (max-width: 780px) {
+  .numbersSection {
+    padding-top: 20px !important;
+    padding-bottom: 30px !important;
+  }
+}
+
+.ethics-section img {
+  width: 85px;
+}
+
+/* .about-section h4:after {
+  content: "p";
+  position: absolute;
+  top: -30px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+} */
+
+.myHr {
+  width: 10%;
+}
+
+@media (max-width: 600px) {
+  .aboutlogo img {
+    width: 200px;
+    height: 200px;
+  }
+  .about-section p {
+    margin-top: 0px;
+  }
+}

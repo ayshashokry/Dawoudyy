@@ -1,0 +1,270 @@
+{
+  "ar": {
+    "HeadersLocalization": "",
+    "welcome":" مرحبا بك في   ",
+
+    "aldawoudy": "ALDAWODY",
+    "headerParagraph": "لخدمات التخليص الجمركي",
+    "from1984": "منذ 1984",
+"phone":"رقم التليفون",
+"location":"العنوان",
+"mail":"الايميل",
+
+    "NavBarLocalization": "",
+    "navbarhome": "الصفحة الرئيسية",
+    "navbarcontact": "تواصل معنا",
+    "navbarabout": "عن الشركة",
+    "navbarservice": "الخدمات",
+     "About_US":"عن الداودي",
+    "HomeLocalization": "",
+
+    "homefingertips": "العالم بين يديك",
+    "homeourbusiness": "",
+    "OUR_SERVICES": "خدماتنا",
+    "readmorebtn": "اقرأ المزيد",
+    "homemissionheader": "الرسالة",
+    "homemissionheader2": "إنشاء شركة الخدمات اللوجستية و التخليص الجمركي الأكثر تفضيلا في القرن 21 من خلال قيادة أنتقال البضائع الي جميع انحاء العالم",
+
+    "homeaboutheader": "عن الداودي",
+    "homeaboutheader2": "شركة راسخة منذ عام 1984 في بورسعيد. نحن رواد السوق والخبراء في مجالنا حيث نتميز في ابتكار حلول مبتكرة مصممة لتلبية و تجاوز احتياجات عملائنا ، والتغلب على العقبات واستخدام الموارد بأكثر الطرق إنتاجية. ",
+    "homevisionheader": "الرؤية",
+    "homevisionheader2":"نجعل النقل المتكامل سهل ,آمن وفعال من حيث التكلفة لتسريع انتقال البضائع للعالم ",
+    "homemissionparagraph": "",
+    "homeaboutparagraph": "",
+    "homevisionparagraph": "",
+    "CHOOSE_US":"لماذا تخترتنا؟ لأن مبادئنا هي توقيعنا",
+    "EXCELLENCE": "ميزتنا",
+    "QUICK_SERVICE": "ضمان جودة",
+
+    "QUALITY1": "الجودة",
+    "TRUSTWORTHY": "جدير بثقتك",
+    "PRODUCTIVITY": "الإنتاجية",
+    "time_money1": " الوقت المال و ",
+    "time_money2": "الكفاءة الحياة  ",
+    "CLEARENCE": "التخليص الجمركي خبرة    ",
+    "SECRET": "كل شئ سري تماما    ",
+    "SATISTICS": "خبرتنا + رضا العملاء",
+    "SATISTICS2": "نحن ذوي خبرة بما فيه الكفاية لنعرف ما يحتاجه عملائنا",
+    "PARTNERS1":"  الشركاء و العملاء",
+    "EXPERIENCE1": "عدة  ",
+    "EXPERIENCE2": "سنوات  ",
+    "EXPERIENCE3": "  من الخبرة",
+
+    "EXPERIENCED1": "موظفون",
+    "EXPERIENCED2": "موقع ",
+    "aldawodys": "المبادئ التوجيهية لدي الداودي",
+    "EXPERIENCED3": "خبراء",
+    "SATISFIED1": "عملاء ",
+    "SATISFIED2": "راضيون ",
+    "SATISFIED3": "شحنات",
+
+    "HAVE_A_QUESTION1": "",
+    "HAVE_A_QUESTION2": "",
+    "7_DAYS_A_WEEK": "",
+    "FROM 8 AM TO 12 AM": "",
+    "ABOUT_US": " عن الداودي",
+    "caption1": "تستند فكرتنا إلى جوهر التميز السريع",
+    "caption2": "نحن نقدم أعمالنا من خلال",
+    "PARTNERS2":"شركاؤنا يأخذننا بجدية و نحن نأخذ عملنا بجدية.",
+    "question":"لدي سؤال؟",
+    "question2":"اسأل خبير",
+
+    "week":"7 أيام في الأسبوع",
+
+    "week1":"من الساعة 8 صباحًا إلى الساعة 12 صباحًا",
+
+    "ourservicesTitle": "لدينا شرف العمل مع بعض العملاء الرائعين. لدينا مجموعة واسعة من الخبرة في مجال اللوجستيات والتخليص مع الشركات من أي حجم بما في ذلك شركات البريد السريع وتجار الجملة وتجار التجزئة والتجارة الإلكترونية والأفراد. نحرص على إزالة الصداع عن راسك من خلال تقديم مجموعة واسعة ومتنوعة من الخدمات في مجال النقل المتكامل ، مع القدرة على التعامل مع جميع مراحل أي شحنة من الباب إلى الباب من البيك اب والنقل إلى التسليم في الوجهة النهائية.",
+"offer":"ماذا نقدم؟",
+    "SUBSCRIBE": "تابعنا",
+    "footerRights": "الداودي - جميع الحقوق محفوظة © 2019",
+    "SUB":" اشترك الان  في أخبارنا الأسبوعية  لأجل تلقي تحديثاتنا",
+    "easyforpartener": "نجعل التخليص الجمركي واللوجستية سهلا",
+    "giveourbest":"نقدم افضل ما لدينا و نعمل بجد",
+    "QUALITY_ASSURANCE": "خدمة سريعة",
+    "EXCELLENCEE": "تطوير",
+    "homecaru1":" نحن نشحن جميع أنواع البضائع",
+    "homecaru2":"نحن جعل سلامة النقل متكاملة وفعالة من حيث التكلفة",
+
+    "homecaru3":"سنوات عديدة من الخبرة",
+
+    "location2":" عمارة رقم 3 ، الطابق الأول ، مبنى السيد شطا. دمياط ، مصرفوق ماجيك كار شارع فكري زاهر,",
+
+    "import":"استيراد",
+    "export":"تصدير",
+    "transit":"نقل",
+    "rexport":" إعادة التصدير    ",
+    "through":" :من خلال ",
+
+    "caru1": "الشحن البحري    ",
+    "caru2": "الشحن الجوي    ",
+
+    "caru3": "التوحيد",
+
+    "caru4": "التخزين",
+
+    "caru5": "المعارض",
+    "caru6": "المشاريع اللوجيستية    ",
+
+    "caru1cap": "تستطيع الداودي من وإلى أي Ro / Ro شحن جميع أنواع الشحنات بما في ذلك الشحنات العامة أو البضائع السائبة أو الحاوية أو. Swiss Gulf Line NVOCC مكان في العالم بتكلفة تنافسية بالإضافة إلى إصدار سندات الشحن الخاصة بشركة. بالنسبة للكميات الكبيرة جدًاتوفر الداودي خدمة تأجير سفن الشحن",
+    "caru2cap": "توفر الداودي خدمة شحن جوي سريعة وسهلة بأسعار تنافسية. تشمل خدماتنا استيراد وتصدير وتوحيد وتعليق حاويات الملابس ",
+
+    "caru3cap": "تقدم الداودي خدمات دمج أسبوعية من مصر إلى أكثر من 400 وجهة في جميع أنحاء العالم مع محطات الاستقبال في القاهرة والإسكندرية. تقوم شركات التوحيد بتجميع العديد من شحنات الشحن البحري والجوي الصغيرة معًا في شحنة واحدة كبيرة وتقدم مزايا أسعار الشحن التنافسية وأقساط التأمين وتقليل مخاطر التلف وخفض تكاليف التعبئة. نعمل باستمرار على توسيع وتطوير خدماتنا من خلال إضافة خدمات الاستيراد المباشر من الأصول الجديدة وخدمات التصدير المباشرة إلى وجهات جديدة من أجل تزويد عملائنا بأكثر الخدمات الأسرع والأسرع والأكثر انتظامًا وأكثرها اقتصادية المتوفرة في السوق المحلية.",
+
+    "caru4cap": "تمتلك الداودي   وتدير العديد من المستودعات الموجودة في موقع استراتيجي في المناطق الصناعية أو بالقرب منها في القاهرة والإسكندرية والمنطقة الحرة بور سعيد. توفر الداودي خدمات التوزيع والتخزين المستعبدين وعمليات ساحات الحاويات والتخزين المحلي. العديد من سنوات الخبرة والتحسين المستمر للعمليات جعلت من خدمة التخزين التي تقدمها الداودي واحدة من الاسيسيات لنجاح الشركة   ",
+
+    "caru5cap": "تستطيع الداودي شحن جميع أنواع الشحنات بما في ذلك الشحنات العامة أو البضائع السائبة أو الحاوية أو Ro / Ro من وإلى أي مكان في العالم بتعريفة تنافسية بالإضافة إلى إصدار سندات الشحن الخاصة بشركة Swiss Gulf Line NVOCC. بالنسبة للكميات الكبيرة جدًا ، توفر ALDAWODY خدمة تأجير سفن الشحن ",
+    "caru6cap": " الداودي متخصصة في الحلول اللوجستية للمشاريع الكبيرة بما في ذلك نقل المعدات الحساسة وحزم ذات وزن أو أبعاد استثنائية. لدى الداودي فريق متخصص ومدرب تدريباً عالياً يقوم بإجراء مسوحات مفصلة للدراسات والدراسات اللوجيستية لتحديد أفضل وسيلة نقل وطريق لكل قطعة من شحنات المشروع. يقوم الفريق بعد ذلك بالإشراف على أي عمل مطلوب لاستعادة أو تقوية أي جزء من الطريق أو إزالة العوائق على طول المسار قبل إجراء النقل الفعلي. ALDAWODY متخصصة في الحلول اللوجستية للمشاريع الكبيرة بما في ذلك نقل المعدات الحساسة وحزم ذات وزن أو أبعاد استثنائية. لدى ALDAWODY فريق متخصص ومدرب تدريباً عالياً يقوم بإجراء مسوحات مفصلة للدراسات والدراسات اللوجيستية لتحديد أفضل وسيلة نقل وطريق لكل قطعة من شحنات المشروع. يقوم الفريق بعد ذلك بالإشراف على أي عمل مطلوب لاستعادة أو تقوية أي جزء من الطريق أو إزالة العوائق على طول المسار قبل إجراء النقل الفعلي.",
+    "followers1":"22،021 متابعين",
+    "followers2":"فى انتظارك ",
+    "ETHICScap1":" تحمل المسؤولية في اتخاذ القرارات المهنية التي تحمي السلامة العامة والصحة والرفاهي",
+
+    "ETHICScap2":"  تجنب إيذاء أو إلحاق الأذى بالآخرين أو ممتلكاتهم أو سمعتهم أو عملهم من خلال عمل خادع أو ضار قدر الإمكان من أجل التراجع عن الآثار السلبية لأي ضرر غير مقصود.",
+
+    "ETHICScap3":"   نحن نتميز بالصراحة وجديرون بالثقة,واقعيون و ندقق في إصدار البيانات أو التقديرات أو تقديم المشورة المهنية بناءً على المعلومات المتوفرة",
+
+    "ETHICScap4":"عقود الشرف والاتفاقيات والمسؤوليات الوظيفية    ",
+    "ETHICScap5":" خدمة العملاء بجد وبحسن نية والتأكد من أن الخدمات التي نقدمها تشكل قيمة عادلة للعملاء.",
+    "reach":"تواصل معنا",
+    "reach2":"لا تتردد واتصل بنا لأي استفسار",
+
+    "servicesheaderanimateparagraph1": " نحن نتعامل بعناية",
+    "providethrough": ":نُقدم خدماتنا من خلال",
+    "ourservices": "خدماتنا",
+    "homegingertips": "العالم في متناول يدك",
+    "aboutcap":"شركة تأسست منذ أمد طويل بقيادة السيد مصطفى أحمد الداودي منذ عام 1984 في بورسعيد ودمياط وأالأسكندرية. نحن رواد السوق والخبراء في مجالنا حيث نتميز في ابتكار حلول مبتكرة مصممة لتلبية أو تجاوز احتياجات عملائنا ، والتغلب على العقبات واستخدام الموارد بأكثر الطرق إنتاجية. لدينا شرف العمل مع بعض العملاء الرائعين. لدينا مجموعة واسعة من الخبرة في مجال اللوجستيات والتخليص مع الشركات من أي حجم بما في ذلك شركات البريد السريع وتجار الجملة وتجار التجزئة والتجارة الإلكترونية والأفراد.",
+    "aboutheaderanimateparagraph": "تبادل الثقة",
+    "contactheaderanimateparagraph": "تُقدم خدماتنا بطريقة ممنهجة"
+  },
+  "en": {
+    "welcome":"WELCOME TO ",
+    "aldawoudy": "ALDAWODY",
+    "headerParagraph": " FOR CLEARANCE & LOGISTIC SERVICES",
+    "from1984": "SINCE 1984",
+    "navbarhome": "HOME",
+    "navbarcontact": "CONTACT US",
+    "navbarabout": "ABOUT US",
+    "aboutcap":" A long established company By Mr. Mostafa Ahmed Eldawody since 1984 in Portsaid, Damietta and Alexandira. We are market leaders and experts in our field as We excel at creating innovative solution designe t fulfill or exceed our customers’ needs, overcome obstacles and utilize resources in the most productive way. We have the privilege of working with some fantastic clients. We Have breadth of experience In Logistic and Clearance with businesses from any sizes Including courier companies , Wholesalers , retailers, E-commerce and Private individuals.",
+    "navbarservice": "SERVICES",
+    "homegingertips": "THE WORLD AT YOUR FINGERTIPS",
+    "homeourbusiness": "Our business is clearing your goods through customs with best quality.",
+    "OUR_SERVICES": " OUR SERVICES",
+    "ABOUT_US": "ABOUT US",
+    "SINCE":"SINCE 1984",
+    "offer":"                WHAT WE OFFER?    ",
+
+    "question":"    HAVE A QUESTION?",
+    "question2":"ASK AN EXPERT",
+
+    "week":" 7 DAYS A WEEK",
+
+    "week1":" FROM 8 AM TO 12 AM",
+
+    "import":"IMPORT",
+    "export":"EXPORT",
+    "transit":"TRANSIT",
+    "rexport":" RE EXPORT",
+    "through":"THROUGH :",
+    "ETHICScap1":" Accept responsibility in making professional decisions that safeguard public safety, health and welfare",
+    "ETHICScap2":" Avoid harming or injuring others, their property, reputation or employment through deceitful or malicious act to the best of our ability in order to undo the negative effects of any unintentional harm.",
+
+    "ETHICScap3":"  Be honest, trustworthy, accurate and realistic in making statements or estimates or giving professional advice based on  the information at hand",
+
+    "ETHICScap4":"   Honor contracts, agreements and job responsibilities",
+
+    "ETHICScap5":" Serve customers diligently and in good faith and ensure that the services we provide constitute a fair value for customers.",
+    "phone":"PHONE",
+    "location":"LOCATION",
+    "location2":" APP. No 3, first floor, EL sayed shatta Building above magic cars Fekry Zaher Street. Damietta, Egypt.",
+
+    "mail":"MAIL",
+    
+    "reach":"REACH US",
+    "reach2":" Don’t hesitate and Get in touch with us For Any Inquiry",
+    "homecaru1":"WE SHIP ALL TYPES OF CARGO",
+    "homecaru2":"  WE MAKE INTEGRATED TRANSPORTATION SAFE AND COST-EFFECTIVE",
+    "PARTNERS1":"    PARTNERS & CLIENTS",
+    "PARTNERS2":"OUR PARTNERS TAKE US SERIOUSLY AND WE TAKE OUR WORK SERIOUSLY.",
+    "homecaru3":"MANY YEARS OF EXPERIENCE",
+    "readmorebtn": "READ MORE",
+    "homemissionheader": "MISSION",
+    "homemissionheader2": " Our mission is To create the most preferred logistics and custom clearance company of the 21st century by driving the world’s good transition all over the world.",
+    "homeaboutheader": "ABOUT US",
+    "homeaboutheader2": "  A long established company since 1984 in Portsaid. We are market leaders and experts in our field as We excel at creating innovative solutions designed to fulfill or exceed our customers’ needs, overcome obstacles and utilize resources in the most productive way.",
+"SUB":"RECIEVE OUR UPDATES AND SUBSCRIBE TO OUR WEEKLY NEWSTERM",
+    "homevisionheader": "VISION",
+    "homevisionheader2": "We make integrated transport easy, safe and cost-effective To accelerate the world’s goods transition",
+    "followers1":"22,021 FOLLOWERS",
+    "followers2":"ARE WAITING FOR YOU ",
+"ETHICS":"ETHICS",
+    "homemissionparagraph": "",
+    "homeaboutparagraph": "",
+    "homevisionparagraph": "",
+
+    "CHOOSE_US": "WHY CHOOSE US? BECAUSE OUR PRINCIPLES ARE OUR SIGNATURE",
+    "QUALITY1": "QUALITY",
+    "EXCELLENCE": "Development",
+    "QUICK_SERVICE": "QUICK SERVICE",
+    "aldawodys": "  AL-DAWOODY’S GUIDING PRINCIPLES",
+
+    "TRUSTWORTHY": "TRUSTWORTHY",
+    "PRODUCTIVITY": "PRODUCTIVITY",
+    "time_money1": "TIME IS MONEY AND ",
+    "time_money2": " EFFECIENCY IS LIFE",
+    "CLEARENCE": "CLEARENCE IS EXPERIENCE",
+    "SECRET": "EVERYTHING IS SECRET ",
+    "SATISTICS": "EXPERIENCE + CUSTOMER SATISFACTION",
+    "SATISTICS2": " WE ARE EXPERIENCED ENOUGH TO KNOW WHAT OUR CUSTOMERS NEED!",
+    "EXPERIENCE1": "COLLECTIVE   ",
+    "EXPERIENCE2": "YEARS OF",
+    "EXPERIENCE3": "EXPERIENCE",
+    "EXPERIENCED1": "ON GROUND",
+    "EXPERIENCED2": "EXPERIENCED",
+    "EXPERIENCED3": "EMPLOYEES",
+    "SATISFIED1": "SATISFIED",
+    "SATISFIED2": "CUSTOMERS & ",
+    "SATISFIED3": "SHIPMENTS",
+    "HAVE_A_QUESTION1": "HAVE A QUESTION?",
+    "HAVE_A_QUESTION2": "ASK AN EXPERT",
+    "DAYS_A_WEEK": "7 DAYS A WEEK",
+    "FROM_8_AM_TO_12_AM": "FROM 8 AM TO 12 AM",
+    "SUBSCRIBE": "SUBSCRIBE",
+    "footerRights": "Aldawody all rights reserved ©2019 ",
+    "qualityassurance":"vbcb",
+    "easyforpartener": "MAKING CUSTOM CLEARANCE AND LOGITICS A BREEZE",
+    "giveourbest": "WE GIVE OUR BEST AND WORK OUR HARDEST",
+    "QUALITY_ASSURANCE": "QUALITY ASSURANCE",
+    "EXCELLENCEE": "DEVELOPMENT",
+    "servicesheaderanimateparagraph1": "WE HANDLE WITH CARE ",
+
+    "providethrough": " We provide our business through:",
+    "ourservices": "OUR SERVICES",
+    "ourservicesTitle": "We have the privilege of working with some fantastic clients. We Have breadth of experience In Logistic and Clearance with businesses from any  sizes Including courier companies , Wholesalers , retailers, E-commerce and Private individuals. We guarntee to remove the headache off your head through offering a wide and varied mix of services in the field of integrated transport, with the ability to handle all the stages of any shipment door-to-door from pick-up and transport to delivery at the final destination.",
+
+    "caption1": "Our whole idea is based upon the core of quick excellance.",
+    "caption2": "We provide our business through:",
+
+    "caru1": "SEA FREIGHT",
+    "caru2": "AIR FREIGHT",
+
+    "caru3": "CONSOLIDATION",
+
+    "caru4": "WAREHOUSING",
+
+    "caru5": "EXHIBITIONS",
+    "caru6": "PROJECT LOGISTICS",
+    "caru1cap": "ALDAWODY is able to ship all types of cargo including general, break bulk, containerized or Ro/Ro cargo to and from any part of the world at competitive tariffs in addition to issuing its own Suez Gulf Line NVOCC bills of lading. For very large volumes, ALDAWODY provides a chartering service for cargo vessels.",
+    "caru2cap": "ALDAWODY provides a quick and easy air freight service at competitive rates. Our service includes import, export, consolidation and hanging garment containers.",
+
+    "caru3cap": "ALDAWODY offers weekly consolidation services from Egypt to over 400 worldwide destinations with receiving stations in Cairo and Alexandria. Consolidation groups many small sea or air freight shipments together into a single large shipment and offers the advantages of competitive freight rates and insurance premiums, reduced risk of damage and reduced packing costs. We continually expand and develop our services by adding direct import services from new origins and direct export services to new destinations in order to provide our customers with the safest, fastest, most regular and most economic service available in the local market.",
+
+    "caru4cap": "ALDAWODY owns and operates several warehouses strategically located at or near industrial areas in Cairo, Alexandria and the Port Said Free Zone. EGYTRANS provides distribution services, bonded warehousing, container yard operations and domestic storage. Many years of experience and continuous process improvement have madeALDAWODY's warehousing service one of the central building blocks of the company success.",
+
+    "caru5cap": "ALDAWODY is able to ship all types of cargo including general, break bulk, containerized or Ro/Ro cargo to and from any part of the world at competitive tariffs in addition to issuing its own Suez Gulf Line NVOCC bills of lading. For very large volumes, ALDAWODY provides a chartering service for cargo vessels.",
+    "caru6cap": "ALDAWODY specializes in logistical solutions for large projects including transport of sensitive equipment and packages of exceptional weight or dimensions. ALDAWODY has a highly trained and specialized team that carries out detailed route surveys and logistical studies to determine the best transport method and route for each piece of project cargo. The team then supervises any work required to reclaim or strengthen any part of the route or remove obstacles along the path before carrying out the actual transport. ",
+    "caru6cap2": "Over the years,ALDAWODY has successfully provided integrated transport solutions for power plants, cement mills, steel mills, transformer sub-stations, water and wastewater plants, oil, gas and petrochemical plants, large scale infrastructure projects and others.",
+
+    "aboutheaderanimateparagraph": "A TRADITION OF TRUST",
+
+    "contactheaderanimateparagraph": "LOGISTICS SERVED IN STYLE"
+  }
+}

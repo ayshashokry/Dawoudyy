@@ -1,0 +1,686 @@
+
+
+.carousel-indicators li{height: 30px;  width: 10px; border-radius: 50%;}
+.phoneButton {
+  position: fixed;
+
+  bottom: 20px;
+cursor: pointer;
+  left: 5px;
+  color: #243462;
+  z-index: 2000;
+  background-color: white;
+  padding: 3px;
+  border-radius: 20%;
+}
+
+.exit {
+  /* position: relative;
+  z-index: 1999; */
+  /* position: absolute;
+  top: -10px;
+  right: 30px; */
+  padding-top: 20px;
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 20px;
+  color: black;
+  /* border: solid 2px #243462; */
+  cursor: pointer;
+}
+.opc2{display: none; padding: 0!important; width: 0; height: 0;}
+.opc2::before{display: none; padding: 0!important; }
+.opc3::before{display: inline;}
+
+
+/* .poptest {
+  position: fixed;
+  background-color: #fff;
+  z-index: 100323323; */
+
+/* } */
+@keyframes popclose {
+  from {
+    width: 100vw;
+    bottom: 0;
+    height: 100px;
+  }
+  to {
+    width: 0px;
+    bottom: 20px;
+    left: 6px;
+    height: 50px;
+    border-radius: 20px;
+  }
+}
+
+@keyframes popopen {
+  from {
+    width: 0px;
+    bottom: 20px;
+    left: 6px;
+    height: 50px;
+    border-radius: 20px;
+  }
+  to {
+    width: 100vw;
+    bottom: 0;
+    height: 100px;
+  }
+}
+
+.opc1 {
+  width: 0;
+  opacity: 0;
+
+  animation: opc1 1s ease-out;
+}
+
+@keyframes opc1 {
+  from {
+    width: auto;
+    opacity: 1;
+  }
+  to {
+    width: 0;
+    opacity: 0;
+  }
+}
+
+.opc0 {
+  width: auto;
+  opacity: 1;
+  animation: opc0 1s ease-out;
+}
+
+@keyframes opc0 {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: auto;
+    opacity: 1;
+  }
+}
+
+.openPop {
+  position: fixed;
+  background-color: #fff;
+  z-index: 100323323;
+  width: 100vw;
+  bottom: 0;
+  height: 100px;
+  color: #243462;
+  animation: popopen .5s ease-out;
+}
+
+.closePop {
+  position: fixed;
+  background-color: #fff;
+  z-index: 100323323;
+  width: 0px;
+  bottom: 25px;
+  left: 6px;
+  height: 50px;
+  border-radius: 20px;
+
+  animation: popclose .5s ease-out;
+}
+
+/********************first section*********************************/
+
+.firstSection {
+  /* background-image: url('https://dawoudy.s3.eu-central-1.amazonaws.com/HomeBg.png'); */
+    background-image: url('../images/homeHeader.png');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+@media (max-width: 800px) and (min-width: 401px) {
+  .firstSection {
+    /* background-image: url('https://dawoudy.s3.eu-central-1.amazonaws.com/Hometablet.jpg'); */
+    background-image: url('../images/homeHeader2.png');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+@media (max-width: 400px) {
+  .firstSection {
+    /* background-image: url('https://dawoudy.s3.eu-central-1.amazonaws.com/HomeMobile.jpg'); */
+    background-image: url('../images/homeHeader3.png');
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}
+
+.myheader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+}
+.myheaderr {
+  position: absolute;
+  left:-215px;
+  top:130%;
+  transform: translate(0%, -50%);
+  animation: myopc 2s ease-out;
+  padding: 20px;
+}
+@media (max-width: 400px) {
+  .myheader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.myheader h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 125px;
+  line-height: 100%;
+
+  /* identical to box height, or 152px */
+
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-indent: 3px;
+
+  color: #fffefe;
+}
+
+.p1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 141.04%;
+  /* or 69px */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-indent: 5px;
+
+  color: #fffefe;
+}
+.p2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 141.04%;
+  /* or 48px */
+  letter-spacing: 0.02em;
+  text-indent: 5px;
+  /* margin-left: -200px; */
+  color: #ffffff;
+}
+
+/*fingertipsSection*/
+.fingertipsHeader h6 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  /* or 0px */
+  color: #243462;
+  text-align: center;
+  letter-spacing: 0.15em;
+  padding-bottom: 10px;
+}
+.fingertips {
+  padding-top: 50px;
+}
+
+.fingertipsHeader p {
+  font-size: 22px;
+  color: #243462;
+  font-family: 'Montserrat';
+}
+
+.fingertipsHeader a {
+  color: #243462;
+  text-decoration: none !important;
+}
+.fingertipsHeader button {
+  background-color: #ffb56c;
+  border-radius: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center !important;
+  margin: 25px 0;
+  border: none;
+  color: #243462;
+}
+
+.fingertipsHeader button:hover {
+  background-color: #ffb56c !important;
+}
+
+.fingertips-grid {
+  padding-top: 45px;
+}
+
+.fingertips .mission {
+  background: #243462;
+  position: relative;
+}
+
+.fingertips .mission h5 {
+  letter-spacing: 0.37em;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat';
+  padding-top: 20px;
+  font-weight: normal;
+}
+.fingertips .mission p {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
+.missionicon img {
+  width: 90px;
+  height: 90px;
+  margin: 20px 0 30px 0;
+}
+.fingertips .mission button {
+  color: #243462;
+  background-color: #fff;
+  border-radius: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  border: none;
+  text-align: center !important;
+  border: none !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+.missionbtn button {
+  position: absolute;
+  bottom: 8%;
+  margin: auto;
+  text-align: center !important;
+  border: none !important;
+  font-family: 'Montserrat';
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: bold !important;
+}
+.missionbtn button:hover {
+  background-color: #fff !important;
+}
+.fingertips .about {
+  transform: scale(1, 1.1);
+  box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+
+.fingertips .about h5 {
+  letter-spacing: 0.37em;
+  color: #243462;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat';
+  padding-top: 40px;
+  font-weight: normal;
+}
+.fingertips .about img {
+  width: 150px;
+  height: 130px;
+  margin-top: 10px;
+}
+.fingertips .about p {
+  color: #243462;
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.aboutbtn button {
+  position: absolute;
+  bottom: 8%;
+  margin: auto;
+  text-align: center !important;
+  border: none;
+}
+.aboutbtn button:hover {
+  background-color: #057f8f !important;
+}
+.fingertips .about button {
+  background-color: #057f8f;
+  border-radius: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center !important;
+}
+
+.fingertips .about a {
+  color: #fff;
+  text-decoration: none !important;
+  font-size: 14px;
+  font-weight: bold !important;
+}
+
+.fingertips .vision button {
+  color: #243462;
+  background-color: #fff;
+  border-radius: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align: center !important;
+  border: none !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+}
+.vision button:hover {
+  background-color: #fff !important;
+}
+
+.fingertips .vision {
+  background: #243462;
+  position: relative;
+}
+
+.fingertips .vision h5 {
+  letter-spacing: 0.37em;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat';
+  padding-top: 20px;
+  font-weight: normal;
+}
+.fingertips .vision p {
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+
+.visionbtn button {
+  position: absolute;
+  bottom: 8%;
+  margin: auto;
+  border: none;
+
+  text-align: center !important;
+  border: none !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 14px;
+  font-weight: bold !important;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* .pop {
+  text-align: left;
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+
+  margin: auto;
+  background-color: #fff;
+  z-index: 100323323;
+  color: #243462;
+} */
+
+.pop img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+.pop p {
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+.phonenumberpop p {
+  font-size: 40px;
+}
+
+/* .popHolder{position: fixed;
+width: 100%;
+height: 100%;
+background-color: black;
+opacity: .5;} */
+
+.showpop {
+  display: block;
+}
+.hiddenpop {
+  display: none;
+}
+
+
+/***********************************icons section************************/
+.title1 h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 33px;
+  line-height: 137%;
+  /* or 62px */
+
+  text-align: center;
+
+  color: #243462;
+}
+
+.title1 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 130.5%;
+  /* or 39px */
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #243462;
+}
+
+.title2 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 141.04%;
+  /* or 28px */
+
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-indent: 5px;
+
+  color: #243462;
+}
+
+.title2 img {
+  width: 47px;
+  height: 50px;
+}
+
+
+@media (max-width: 900px) {
+  .pop {
+    display: none;
+  }
+  .phoneButton {display: none;}
+
+
+
+
+}
+
+@media (max-width: 767px) {
+
+  .fingertips .about {
+    transform: scale(1);
+    box-shadow: 0 0;
+    border-radius: 0px;
+  }
+
+  .about {
+    margin-top: 30px;
+  }
+  .mission p,
+  .vision p {
+    padding-bottom: 70px;
+  }
+}
+
+
+@media(max-width: 500px) {
+
+  .phoneButton {display: none;}
+  
+}
+
+@media (max-width: 620px) and (min-width: 400px) {
+  .myheader h2 {
+    font-size: 40px;
+  }
+  .pop {
+    display: none;
+  }
+
+  .p1 {
+    font-size: 18px;
+  }
+  .p2 {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+  .myheader {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 399px) {
+  .pop {
+    display: none;
+  }
+  .myheader h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 100%;
+
+    /* identical to box height, or 152px */
+
+    text-align: center;
+    letter-spacing: 0.1rem;
+    text-indent: 3px;
+
+    color: #fffefe;
+  }
+  .p1 {
+    font-size: 20px;
+  }
+  .p2 {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+
+  .title1 h3 {
+    font-size: 20px;
+  }
+
+  .title1 p {
+    font-size: 17px;
+  }
+  .fingertipsHeader h6 {
+    font-size: 22px;
+  }
+  .fingertipsHeader p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 766px) {
+  .pop {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel-caption {
+    display: none !important;
+  }
+}
+
+@media (max-width: 850px) and (min-width: 501px) {
+  .firstSection {
+    /* background-image: url('../images/Hometablet.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  .myheader {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .myheader h2 {
+    font-size: 70px;
+  }
+  .p1 {
+    font-size: 22px;
+  }
+  .p2 {
+    font-size: 15px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .firstSection {
+    /* background-image: url('../images/HomeMobile.jpg'); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+}

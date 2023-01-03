@@ -1,0 +1,232 @@
+/* .footer{
+padding-top: 100px;
+} */
+/* .app{overflow-x: hidden;} */
+
+.arabicFont *:not(i){font-family: 'Almarai', sans-serif!important;
+}
+.rev{flex-flow: row-reverse;}
+
+.withoutletterspace{letter-spacing: unset!important;}
+
+.lanStyle{background-color:white ;color:#243462!important}
+.footerLinks li {
+  padding-bottom: 15px !important;
+  display: inline;
+  padding-right: 30px;
+}
+li a {
+  text-decoration: none !important;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 0px;
+  color: #ffffff;
+}
+/* @media (max-width: 550px) {
+  .footerLinks li {
+    padding-bottom: 15px !important;
+    display: block;
+    padding-right: 30px;
+  }
+} */
+li a:hover {
+  color: #ffffff;
+}
+
+.footerLinks {
+  background: #223362;
+}
+
+.footerbg {
+  background-image: linear-gradient(
+      rgba(36, 52, 98, 0.88),
+      rgba(36, 52, 98, 0.88)
+    ),
+    url('https://dawoudy.s3.eu-central-1.amazonaws.com/footerBg.png');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 50vh; */
+  position: relative;
+}
+
+/* .footerTxt{
+  /* padding-top: 80px; */
+/* }  */
+@media(max-width:500px)
+{
+  .footerLinks li {
+  display: block;
+}
+.footerTxt
+{
+  padding-top: 20px;
+}
+}
+
+.footerTxt p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 125.04%;
+  /* or 25px */
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.14em;
+}
+
+.footerBtn {
+  background: #ffb56c !important;
+  padding-right: 60px;
+  padding-left: 60px;
+  border-radius: 42px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 125.04%;
+  /* or 19px */
+
+  text-align: center;
+  letter-spacing: 0.21em;
+  text-indent: 5px;
+
+  border-color: transparent !important;
+  /* border-color: #007bff; */
+
+  color: #29406a !important;
+  margin: auto;
+}
+
+.footerTxt2 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 125.04%;
+  /* or 25px */
+  color: #ffffff;
+  /* text-align: center; */
+  letter-spacing: 0.14em;
+  letter-spacing: 0.215em;
+  padding-left: 5px;
+}
+.scoialicons {
+  position: absolute;
+  bottom: -10px;
+  right: 55px;
+}
+.scoialicons li {
+  display: inline;
+  padding: 10px;
+}
+
+.scoialicons i {
+  font-size: 20px;
+  color: #223362;
+  background-color: white;
+  padding: 5px;
+  border-radius: 20%;
+}
+
+.mylogo2 {
+  width: 118px;
+  height: 67px;
+}
+/* .footerlinksnav {
+  padding-left: 40px;
+} */
+.cpyRight {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 125.04%;
+  /* identical to box height, or 13px */
+
+  text-align: center;
+  letter-spacing: 0.225em;
+  text-indent: 5px;
+  margin-bottom: 0px !important;
+  color: #ffffff;
+}
+* {
+  transition: all 1s;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: 'Montserrat';
+  /* overflow-x: hidden; */
+
+}
+
+
+
+
+/* #app{  overflow-x: hidden; 
+  width: 100vw;
+} */
+
+/* body {
+  overflow-x: hidden;
+  width: 100vw;
+
+} */
+
+a {
+  text-decoration: none;
+}
+.form-group{margin: 0px;}
+
+.footer input {
+  border-radius: 0px;
+  border: none;
+  width: 50%;
+  /* float: right; */
+  margin: auto;
+}
+
+#snackbar {
+  padding: 20px;
+  text-align: center;
+  background-color: #243462;
+  color: white;
+  border: none;
+}
+
+.myNav {
+  position: absolute;
+}
+
+@media (max-width: 400px) {
+
+
+  /* * {overflow-x: hidden;
+    overflow-y: inherit;
+  } */
+}
+
+@media (max-width: 600px) {
+
+
+  /* * {overflow-x: hidden;
+  } */
+
+  .footer input {
+    
+    width: 90%;
+    /* float: right; */
+    margin: auto;
+  }
+
+  .footerRow {
+    flex-wrap: nowrap !important;
+  }
+  /* .footerBtn { float: none!important;} */
+}
+
